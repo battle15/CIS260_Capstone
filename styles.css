@@ -23,8 +23,28 @@ header {
     min-height: 70px;
     border-bottom: #e8491d 3px solid;
 
-
 }
 
+header h1{
+    float: left;
+    font-size: 2em;
+}
 
+header nav {
+    float: right;
+    margin-top: 10px;
+}
 
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 20px
+}
+
+header nav ul li a {
+    color: #ffffff;
+    font-size: 18px
+}
