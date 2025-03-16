@@ -13,7 +13,13 @@ Awesome, you were able to get this up. Please review what a Markdown file is exa
 ### Navigation
 - This section will contain hyperlinks that will take the user the corresponding sections of the page (About Me, Resume/Experience, Contact Me).'
 
+### About Me
 
+### Resume/ Experience
+
+### Contact Me
+
+### Footer
 
 
 
