@@ -46,5 +46,38 @@ header nav ul li {
 
 header nav ul li a {
     color: #ffffff;
-    font-size: 18px
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #e8491d;
+    transition: 0.3s;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #35424a;
+}
+
+
+.resume {
+    background: #ffffff;
+    border-radius: 5px;
+    margin-bottom:20px;
+    width: 48%;
+    box-shadow: 0 2px 5px;
+    
+}
+
+footer {
+    background-color: #35424a;
+    text-align: center;
+    border-top: #e8491d 3px;
+    padding: 20px;
+    margin-top: 20px;
 }
