@@ -14,13 +14,19 @@ Awesome, you were able to get this up. Please review what a Markdown file is exa
 - This section will contain hyperlinks that will take the user the corresponding sections of the page (About Me, Resume/Experience, Contact Me).'
 
 ### About Me
+- 
+- Short Personal Story
 
 ### Resume/ Experience
+- Basic experience information
+- Link to resume
 
 ### Contact Me
+- Contact Form
+- Email and Phone number
 
 ### Footer
-
+Fake Copyright With First and Last name
 
 
 
