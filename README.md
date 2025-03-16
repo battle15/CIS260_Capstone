@@ -7,8 +7,12 @@ Awesome, you were able to get this up. Please review what a Markdown file is exa
 # Markdown File
 
 ### Layout
-- One page split into 5 sections: Navigation, About Me, Resume/ Experience, Contact Me, footer. 
+- One page split into 6 sections: Header,Navigation, About Me, Resume/ Experience, Contact Me, footer. 
 - Later each section will be its own page.
+
+### Header
+- Title of page
+
 ### Navigation
 - This section will contain hyperlinks that will take the user the corresponding sections of the page (About Me, Resume/Experience, Contact Me).'
 
