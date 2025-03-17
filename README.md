@@ -30,5 +30,11 @@ Awesome, you were able to get this up. Please review what a Markdown file is exa
 ### Footer
 Fake Copyright With First and Last name
 
+### Theme
+
+- Feel: palette and fonts that professional and fresh
+
+-Colors: Green, White, and Gray/Beige
+-Font: Lato
 
 
