@@ -12,19 +12,23 @@ Awesome, you were able to get this up. Please review what a Markdown file is exa
 
 ### Header
 - Title of page
+- The header will be a simple color with a white font. Large without distracting to the user too much.
+- Later, the head will stay at the top as the user scrolls through the page.
 
 ### Navigation
-- This section will contain hyperlinks that will take the user the corresponding sections of the page (About Me, Resume/Experience, Contact Me).'
+- This section will contain hyperlinks that will take the user the corresponding sections of the page (About Me, Resume/Experience, Contact Me).
+- Later, the links will lead to different pages
 
 ### About Me
 - Short Personal Story
+- This will include information about my passions, skills, and careers goals.
 
 ### Resume/ Experience
-- Basic experience information
+- Basic experience information: Education, Experience, Skills, 
 - Link to resume
 
 ### Contact Me
-- Contact Form
+- Contact Form that will send information to my personal email address.
 - Email and Phone number
 
 ### Footer
