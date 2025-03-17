@@ -38,7 +38,7 @@ Fake Copyright With First and Last name
 
 - Feel: palette and fonts that professional and fresh
 
--Colors: Green, White, and Gray/Beige
--Font: Lato
+- Colors: Green, White, and Gray/Beige
+- Font: Lato
 
 
