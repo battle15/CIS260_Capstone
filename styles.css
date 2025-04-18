@@ -71,7 +71,16 @@ header nav ul li a:hover {
     margin-bottom:20px;
     width: 48%;
     box-shadow: 0 2px 5px;
-    
+}
+
+a {
+    color: #e8491d;
+    transition: 0.3s;;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
