@@ -54,8 +54,24 @@ header nav ul li a:hover {
     transition: 0.3s;
 }
 
+.parallax {
+    background: url("https://4.bp.blogspot.com/-NPMN4tdlc0M/T5VerMKVCOI/AAAAAAAAAbc/Vm3novuAvHA/s1600/Free-Background-5.jpg") repeat fixed 100%;
+}
+
+.parallax-inner{
+    padding-top: 20%;
+    padding-bottom: 20%
+}
+
 .section {
     padding: 50px 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
 }
 
 .section h2{
