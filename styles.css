@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Lora'; serif;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
 }
 
 .container{
@@ -19,7 +19,7 @@ body {
 /* Header Section */
 
 header {
-    background: #f7f7f7;
+    background: #ffffff;
     color: #0e0d0d;
     padding-top: 30px;
     min-height: 70px;
@@ -140,13 +140,10 @@ h1{
 
  }
  
- .parallax2 h2:hover {
-    
- }
  
  .parallax2-inner{
      padding-top: 10%;
-     padding-bottom: 10%;
+
  }
  
  /* End of parallax 1 section*/
@@ -154,7 +151,6 @@ h1{
      padding: 50px 0;
  }
  
-
 
 a {
     color: #e8491d;
@@ -176,7 +172,7 @@ footer {
 
 /* ABOUT ME PAGE */
 
-/* SPLIT SECTIONS */
+    /* SPLIT SECTIONS */
 
 
 body {
@@ -198,7 +194,7 @@ body {
 }
 
 .left {
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   flex-direction: column;
   padding: 50px;
 }
