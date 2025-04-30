@@ -1,144 +1,254 @@
-/* ========== RESET & BASE STYLES ========== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Lora', serif;
-    background-color: #ffffff;
-    margin: 0 20px;
-  }
-  
-  /* ========== TYPOGRAPHY ========== */
-  h1, h2 {
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .section h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #000000;
-  }
-  
-  a {
-    color: #e8491d;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* ========== LAYOUT ========== */
-  .container {
+}
+
+body {
+    font-family: 'Lora'; serif;
+    background-color: #f7f7f7;
+}
+
+.container{
     width: 80%;
-    margin: auto;
+    margin:auto;
     overflow: hidden;
     padding: 0 20px;
-  }
-  
-  .section {
-    padding: 50px 0;
-  }
-  
-  /* ========== HEADER ========== */
-  header {
-    background: #ffffff;
+}
+
+/* Header Section */
+
+header {
+    background: #f7f7f7;
     color: #0e0d0d;
     padding-top: 30px;
     min-height: 70px;
-  }
-  
-  header h1 {
+    font-family: Montserrat, sans-serif;
+}
+
+header h1{
     float: left;
+    font-size: 2em;
+    text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #000000;
-  }
-  
-  header nav {
+}
+
+header nav {
     float: right;
     margin-top: 10px;
-  }
-  
-  header nav a {
-    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 20px
+}
+
+header nav ul li a {
+    color: #ffffff;
     font-size: 18px;
-    color: #000000;
-  }
-  
-  header nav a:hover {
+}
+
+header nav ul li a:hover {
     color: #e8491d;
-  }
-  
-  /* ========== INTRODUCTION SECTION ========== */
-  .introduction {
-    padding: 15% 0;
-  }
-  
-  .introduction h2 {
+    transition: 0.3s;
+}
+
+/* End of Header section*/
+
+/*Main Introduction section*/
+
+.introduction{
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+}
+
+.introduction h2{
     padding-bottom: 30px;
-  }
-  
-  .introduction p {
-    padding-bottom: 30px;
-  }
-  
-  /* ========== PARALLAX SECTIONS ========== */
-  .parallax {
+    font-family: Montserrat, sans-serif;
+}
+
+.introduction p{
+    padding-bottom: 30px
+}
+
+/*End of Main introduction section*/
+
+/*Start of parallax 1 section*/
+.parallax {
+   /* background: url("https://en.freejpg.com.ar/image-900/33/33f3/F100022541-vertical_background_with_pastel_pink_and_light_blue_tones.jpg") repeat fixed 100%;
+*/
     background: url("https://images.unsplash.com/photo-1619972898592-5de4b1c68025?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBkZXNrfGVufDB8fDB8fHww") repeat fixed 100%;
-  }
-  
-  .parallax-inner {
-    padding: 12% 0;
-  }
-  
-  .parallax h1 {
+   }
+
+
+.parallax h1{
     color: #ffffff;
     text-align: center;
-  }
-  
-  /* ========== PARALLAX 2 SECTION ========== */
-  .parallax2 {
+    font-family: Montserrat, sans-serif;
+
+}
+
+.parallax-inner{
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+/* End of parallax 1 section*/
+.section {
+    padding: 50px 0;
+}
+
+/*
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+*/
+
+/* Header colors for information sections */
+.section h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/*Start of parallax 2 section*/
+.parallax2 {
     background-color: #ffffff;
-  }
-  
-  .parallax2-inner {
-    padding: 10% 0;
-  }
-  
-  .parallax2 h2 {
+}
+ 
+ .parallax2 h1{
+     color: #ffffff;
+     text-align: center;
+     font-family: Montserrat, sans-serif;
+ 
+ }
+ 
+ .parallax2 h2 {
     color: #e8491d;
     text-align: center;
     text-decoration: underline;
+
+ }
+ 
+ .parallax2 h2:hover {
+    
+ }
+ 
+ .parallax2-inner{
+     padding-top: 10%;
+     padding-bottom: 10%;
+ }
+ 
+ /* End of parallax 1 section*/
+ .section {
+     padding: 50px 0;
+ }
+ 
+
+
+a {
+    color: #e8491d;
+    transition: 0.3s;;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #9e9e9e;
+    text-align: center;
+    border-top: #e8491d 3px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* ABOUT ME PAGE */
+
+/* SPLIT SECTIONS */
+
+
+body {
+    margin: 0 20px;
+    font-family: Arial, sans-serif;
   }
-  
-  /* ========== CONTACT FORM ========== */
-  .contact-form {
+
+.split-section {
+  display: flex;
+  height: 100vh;          
+  width: 100%;
+}
+
+.left, .right {
+  flex: 1;         
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  background-color: #f4f4f4;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.right {
+  background-color: #eee;
+  overflow: hidden;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .split-section {
+    flex-direction: column;
+    height: auto; 
+  }
+
+  .right img {
+    height: 100px;
+  }
+}
+
+
+
+.contact-form {
     display: flex;
     flex-direction: column;
     max-width: 600px;
     margin: 20px auto;
-  }
-  
-  .contact-form label {
+}
+
+.contact-form label {
     margin-bottom: 5px;
     font-weight: bold;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
+}
+
+.contact-form input,
+.contact-form textarea {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #ffffff;
+    border: 1px solid #ccc;
     font-size: 16px;
     border-radius: 4px;
-  }
-  
-  .contact-form button {
+}
+
+.contact-form button {
     padding: 12px;
     background-color: #e8491d;
     color: white;
@@ -147,72 +257,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  .contact-form button:hover {
+}
+
+.contact-form button:hover {
     background-color: #c03e1a;
-  }
-  
-  /* ========== FOOTER ========== */
-  footer {
-    background-color: #9e9e9e;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    border-top: 3px solid #e8491d;
-  }
-  
-  /* ========== RESPONSIVE DESIGN ========== */
-  @media (max-width: 768px) {
-    .split-section {
-      flex-direction: column;
-      height: auto;
-    }
-  
-    .right img {
-      height: 100px;
-    }
-  
-    header nav {
-      float: none;
-      text-align: center;
-      margin-top: 20px;
-    }
-  
-    header h1 {
-      float: none;
-      text-align: center;
-    }
-  }
-  
-  /* ========== OPTIONAL: SPLIT SECTION STYLING (ABOUT PAGE) ========== */
-  .split-section {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-  }
-  
-  .left, .right {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .left {
-    background-color: #ffffff;
-    flex-direction: column;
-    padding: 50px;
-  }
-  
-  .right {
-    background-color: #ffffff;
-    overflow: hidden;
-  }
-  
-  .right img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
+}
